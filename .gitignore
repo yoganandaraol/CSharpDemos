@@ -1,0 +1,7 @@
+*/obj/*
+*/bin/*
+/CSharpFeatures/.vs
+/CSharpFeatures/001_DBContext/bin/*
+/CSharpFeatures/001_ConcurrencyAndParallelism/bin/*
+/CSharpFeatures/001_ConcurrencyAndParallelism/obj/*
+/CSharpFeatures/001_DBContext/obj/*

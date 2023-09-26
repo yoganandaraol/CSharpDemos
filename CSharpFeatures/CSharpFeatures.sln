@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{44C657A7-F06F-4895-A03D-A53D2F1346BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCore", "EFCore", "{B703C09A-AC43-4140-846C-106A83D8A31A}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ConcurrencyAndParallelism", "001_ConcurrencyAndParallelism\001_ConcurrencyAndParallelism.csproj", "{DEBFDF23-4544-450E-9C5F-F4123FFA2F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_DBContext", "001_DBContext\001_DBContext.csproj", "{D9B16D73-9718-4810-AC81-A691C336B33D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBFDF23-4544-450E-9C5F-F4123FFA2F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBFDF23-4544-450E-9C5F-F4123FFA2F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBFDF23-4544-450E-9C5F-F4123FFA2F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBFDF23-4544-450E-9C5F-F4123FFA2F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B16D73-9718-4810-AC81-A691C336B33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B16D73-9718-4810-AC81-A691C336B33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B16D73-9718-4810-AC81-A691C336B33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B16D73-9718-4810-AC81-A691C336B33D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEBFDF23-4544-450E-9C5F-F4123FFA2F69} = {44C657A7-F06F-4895-A03D-A53D2F1346BD}
+		{D9B16D73-9718-4810-AC81-A691C336B33D} = {B703C09A-AC43-4140-846C-106A83D8A31A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B830B0E8-8285-4491-8711-2DC3B5E19D57}
+	EndGlobalSection
+EndGlobal
